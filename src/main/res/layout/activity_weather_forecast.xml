@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherForecast">
+    <ImageView
+        android:id="@+id/currentWeatherImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        />
+    <TextView
+        android:id="@+id/currentTWeatherTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Current Temperature"/>
+    <TextView
+        android:id="@+id/minimumTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Minimum Temperature"/>
+    <TextView
+        android:id="@+id/maximumTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Maximum Temperature"/>
+    <TextView
+        android:id="@+id/windSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Wind speed"/>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleHorizontal"
+        />
+
+</LinearLayout>

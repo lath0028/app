@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab_03</string>
+
+    <string name="message">Hola Amigo!</string>
+    <string name="clickMe">Login</string>
+    <string name="login">login</string>
+    <string name="login_name">login name</string>
+    <string name="password">password</string>
+    <string name="wht">What does this do?</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="dialog_title">Closing app</string>
+    <string name="ok">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="res_msg">Here is my response</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
